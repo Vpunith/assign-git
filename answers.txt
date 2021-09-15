@@ -1,6 +1,6 @@
 What is a gitignore file and what should it include for a Java project?
-It's a afile in Git that tells Git not to track certain files and folders that should 
-not be uploaded into the master repository. For java project it should contain package 
+It's a a file in Git that tells Git not to track certain files and folders that should 
+not be uploaded into the repository. For java project it should contain package 
 files, log files, etc.
 
 
@@ -14,4 +14,6 @@ Why should you have different branches?
 It helps the teamates to work on different modules and this will not effect others work.
 
 In a project how many remote Git repositories do you usually have?
-You can have as many as you need based on the requirment.
+We can usually have 1 remote repository for a project but sometimes 
+when the application is huge and when many teams are working then we can accomodate as many as
+remote Git repositories based on our need.
